@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" style="position: absolute"
+        ><img src="../icon/home.png" style="border-radius: 10px" height="70px"
+      /></a>
+      <ul id="monaco">
+        <li style="padding: 1rem">
+          <a href="./informação.html" style="border-radius: 10px">Informação</a>
+        </li>
+        <li style="padding: 1rem">
+          <a href="./sistema.html" style="border-radius: 10px">Sistema</a>
+        </li>
+        <li style="padding: 1rem">
+          <a href="./tgs.html" style="border-radius: 10px">TGS</a>
+        </li>
+        <li style="padding: 1rem">
+          <a href="./sistema_info.html" style="border-radius: 10px"
+            >Sistema de informação</a
+          >
+        </li>
+        <li style="padding: 1rem">
+          <a href="./sistema_info_gerencial.html" style="border-radius: 10px"
+            >Sistema de informação gerencial</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <div
+      class="parallax"
+      style="
+        background-image: url('https://th.bing.com/th/id/R.f5db5a908de07de52d84c8deadf0391f?rik=MylP2LKJU5fxbQ&riu=http%3a%2f%2fblog.espol.edu.ec%2fsistemasdigitalesfiec%2ffiles%2f2021%2f03%2fcropped-5126636.jpg&ehk=KdtASCfZ7KXphkcCLVxTEoVoGhhGzSTF4tnFaV7EZQk%3d&risl=&pid=ImgRaw&r=0');
+      "
+    >
+      <h1
+        style="
+          font-family: 'Monaco', monospace;
+          position: absolute;
+          left: 50%;
+          top: 25%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(0, 0, 0, 0.7);
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 4rem;
+        "
+      >
+        Teoria Geral dos Sistemas
+      </h1>
+    </div>
+
+    <div id="content">
+      <h2
+        id="monaco"
+        style="
+          margin-left: 25%;
+          margin-right: 25%;
+          margin-top: 5%;
+          color: rgb(53, 53, 114);
+          font-weight: lighter;
+          text-align: justify;
+        "
+      >
+        A TEORIA GERAL DOS SISTEMAS (TGS) é uma abordagem interdisciplinar que
+        busca compreender os fenômenos complexos e dinâmicos que envolvem
+        diferentes áreas do conhecimento. A TGS se baseia na ideia de que os
+        sistemas são formados por elementos inter-relacionados que interagem
+        entre si e com o ambiente, produzindo propriedades emergentes que não
+        podem ser explicadas apenas pelas partes isoladas. A TGS também propõe
+        princípios gerais que se aplicam a todos os tipos de sistemas, como
+        hierarquia, equifinalidade, retroalimentação, homeostase, entropia, etc.
+        A TGS foi desenvolvida pelo biólogo austríaco Ludwig von Bertalanffy na
+        década de 1940 e influenciou diversas áreas como a biologia, a
+        psicologia, a sociologia, a administração, a informática, a educação,
+        entre outras. A TGS é considerada uma forma de pensamento sistêmico, que
+        busca analisar os problemas de forma holística, integrada e
+        contextualizada.
+      </h2>
+    </div>
+
+    <div id="references">
+      <h1
+        id="monaco"
+        style="
+          display: flex;
+          justify-content: center;
+          margin-top: 5%;
+          color: rgb(0, 0, 75);
+        "
+      >
+        Fontes
+      </h1>
+      <h3
+        id="monaco"
+        style="
+          margin-left: 25%;
+          margin-right: 25%;
+          color: rgb(0, 0, 75);
+          font-weight: lighter;
+          text-align: justify;
+        "
+      >
+        <a
+          href="https://periodicos.ufms.br/index.php/EIGEDIN/article/view/16854"
+          style="padding-bottom: 10%"
+          >TEORIA GERAL DOS SISTEMAS (TGS) uma revisão sistemática dos cursos
+          stricto sensu brasileiros - Leonardo de Lima Neves e Sirlei de Andrade
+          Maciel
+        </a>
+      </h3>
+    </div>
+  </body>
+</html>
+
+<style scoped>
+  body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+  }
+
+  header {
+    height: 90px;
+    background-color: white;
+
+    box-shadow: 0px 1px 10px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+  }
+  header ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  header li {
+    list-style: none;
+    border-radius: 5px;
+  }
+  header li:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+  }
+
+  header a:any-link {
+    color: black;
+  }
+
+  #monaco {
+    font-family: "Monaco", monospace;
+  }
+
+  .parallax {
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -90px;
+  }
+</style>
